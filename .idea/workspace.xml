@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="271c751c-2f29-4243-abf7-8e5d83014329" name="Default Changelist" comment="" />
+    <list default="true" id="271c751c-2f29-4243-abf7-8e5d83014329" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,13 +13,36 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/views/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="894">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="-64">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -30,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/views/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-142" />
+            <state relative-caret-position="-225" />
           </provider>
         </entry>
       </file>
@@ -43,6 +68,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/views/index.twig" />
+        <option value="$PROJECT_DIR$/web/index.php" />
       </list>
     </option>
   </component>
@@ -68,8 +94,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="93" />
+    <option name="x" value="54" />
+    <option name="y" value="54" />
     <option name="width" value="1200" />
     <option name="height" value="706" />
   </component>
@@ -110,6 +136,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/views" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -122,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.twig">
+  <component name="RunManager" selected="JavaScript Debug.Unnamed">
     <configuration name="Unnamed" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/php-getting-started1/web/index.php" useBuiltInWebServerPort="true">
       <method v="2">
         <option name="LaunchBrowser.Before.Run" url="http://localhost" />
@@ -154,7 +185,7 @@
       <workItem from="1550275010486" duration="3998000" />
       <workItem from="1550457971455" duration="227000" />
       <workItem from="1550458633201" duration="415000" />
-      <workItem from="1550459543025" duration="1154000" />
+      <workItem from="1550459543025" duration="3423000" />
     </task>
     <task id="LOCAL-00001" summary="Added one paragraph">
       <created>1550275980043</created>
@@ -184,14 +215,37 @@
       <option name="project" value="LOCAL" />
       <updated>1550460538601</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changed error in &lt;p&gt;">
+      <created>1550460949714</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550460949714</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated &lt;a &lt;href&gt; code line">
+      <created>1550461029928</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1550461029928</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5794000" />
+    <option name="totallyTimeSpent" value="8063000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="93" width="1200" height="706" extended-state="0" />
+    <frame x="40" y="67" width="1200" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27374783" />
@@ -200,21 +254,21 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49913645" visible="true" weight="0.5179153" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49913645" weight="0.5179153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4974093" weight="0.33224756" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50086355" side_tool="true" visible="true" weight="0.5179153" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.50086355" side_tool="true" visible="true" weight="0.5179153" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32899022" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3298791" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,24 +279,36 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="Edited text and Capitalized all headers" />
     <MESSAGE value="Remove unnecessary paragraphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary paragraphs" />
+    <MESSAGE value="Changed error in &lt;p&gt;" />
+    <MESSAGE value="Updated &lt;a &lt;href&gt; code line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated &lt;a &lt;href&gt; code line" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/views/layout.html">
+    <entry file="file://$PROJECT_DIR$/web/views/header.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views/header.html">
+    <entry file="file://$PROJECT_DIR$/web/views/Bootstrap and GIT assign1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views/layout.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-142" />
+        <state relative-caret-position="-225" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/views/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="-64">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
         </state>
       </provider>
     </entry>
